@@ -10,5 +10,5 @@ let server = http.createServer(function(req, res) {
   }
 })
 server.listen(3000, () => {
-  console.log('后端API接口服务器已经启动在3000端口！')
+  console.log('后端API接口服务器已经启动在3000端口了')
 })
