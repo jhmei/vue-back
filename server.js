@@ -1,6 +1,6 @@
 let http = require('http')
 
-let users = [{ id: 666, name: '张三' }, { id: 888, name: '李四' }, { id: 999, name: '王五' }]
+let users = [{ id: 66, name: '张三' }, { id: 88, name: '李四' }, { id: 99, name: '王五' }]
 let server = http.createServer(function(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*')
   if (req.url === '/api/users') {
