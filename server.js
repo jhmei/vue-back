@@ -1,6 +1,6 @@
 let http = require('http')
 
-let users = [{ id: 2, name: '请问' }, { id: 22, name: '以为' }, { id: 222, name: '认为' }]
+let users = [{ id: 6, name: '请问' }, { id: 66, name: '以为' }, { id: 666, name: '认为' }]
 let server = http.createServer(function(req, res) {
   res.setHeader('Content-Type', 'text/plain;charset=utf-8') // 解决中文乱码
   res.setHeader('Access-Control-Allow-Origin', '*')
